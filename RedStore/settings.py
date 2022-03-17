@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'category.apps.CategoryConfig',
     'accounts.apps.AccountsConfig',
     'carts',
+    'orders',
 ]
 
 AUTH_USER_MODEL = 'accounts.Account'
