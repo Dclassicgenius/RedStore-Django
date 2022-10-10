@@ -1,7 +1,7 @@
 import datetime
 from email.message import EmailMessage
 import json
-from django.http import HttpResponse, JsonResponse
+from django.http import JsonResponse
 from django.shortcuts import redirect, render
 
 from carts.models import CartItem
